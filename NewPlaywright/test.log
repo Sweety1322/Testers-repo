@@ -1,0 +1,24 @@
+[2025-04-30T07:58:17.095Z] INFO: Valid Login test started
+[2025-04-30T07:58:47.630Z] INFO: Invalid Login test started
+[2025-04-30T07:58:51.290Z] INFO: Invalid Login test passed
+[2025-04-30T07:58:54.065Z] INFO: Logging in before adding item to cart
+[2025-04-30T09:55:59.901Z] INFO: Valid Login test started
+[2025-04-30T09:56:05.380Z] INFO: Valid Login test passed
+[2025-04-30T09:56:08.188Z] INFO: Invalid Login test started
+[2025-04-30T09:56:11.622Z] INFO: Invalid Login test passed
+[2025-04-30T09:56:15.006Z] INFO: Logging in before adding item to cart
+[2025-04-30T09:56:22.665Z] INFO: Item successfully added to cart
+[2025-05-01T12:09:32.623Z] INFO: Valid Login test started
+[2025-05-01T12:09:45.558Z] INFO: Valid Login test passed
+[2025-05-01T12:09:50.705Z] INFO: Invalid Login test started
+[2025-05-01T12:10:08.524Z] INFO: Invalid Login test passed
+[2025-05-01T12:10:44.136Z] INFO: Logging in before adding item to cart
+[2025-05-05T06:18:43.680Z] INFO: Valid Login test started
+[2025-05-05T06:18:49.568Z] INFO: Valid Login test passed
+[2025-05-05T06:18:52.321Z] INFO: Invalid Login test started
+[2025-05-05T06:18:55.252Z] INFO: Invalid Login test passed
+[2025-05-05T06:18:57.831Z] INFO: Logging in before adding item to cart
+[2025-05-05T06:19:07.068Z] INFO: Item successfully added to cart
+[2025-05-05T06:21:26.338Z] INFO: Valid Login test started
+[2025-05-05T06:21:33.023Z] INFO: Valid Login test passed
+[2025-05-05T06:21:36.688Z] INFO: Invalid Login test started

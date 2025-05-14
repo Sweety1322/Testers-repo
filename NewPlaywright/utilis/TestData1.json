@@ -1,0 +1,12 @@
+[
+{
+    "userName" : "standard_user",
+    "passWord" : "secret_sauce",
+    "productName" : "Sauce Labs Bike Light"
+},
+{
+   "userName" : "standard_user",
+    "passWord" : "secret_sauce",
+    "productName" : "Sauce Labs Onesie" 
+}
+]
