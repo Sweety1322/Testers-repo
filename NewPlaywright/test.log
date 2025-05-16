@@ -32,3 +32,8 @@
 [2025-05-16T07:34:05.475Z] INFO: Invalid Login test started
 [2025-05-16T07:34:08.579Z] INFO: Invalid Login test passed
 [2025-05-16T07:34:11.736Z] INFO: Logging in before adding item to cart
+[2025-05-16T10:30:08.732Z] INFO: Valid Login test started
+[2025-05-16T10:30:17.055Z] INFO: Valid Login test passed
+[2025-05-16T10:30:18.721Z] INFO: Invalid Login test started
+[2025-05-16T10:30:22.009Z] INFO: Invalid Login test passed
+[2025-05-16T10:30:23.284Z] INFO: Logging in before adding item to cart

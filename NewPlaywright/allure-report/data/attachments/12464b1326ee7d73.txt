@@ -1,2 +1,0 @@
-[2025-04-30T07:58:47.630Z] INFO: Invalid Login test started
-[2025-04-30T07:58:51.290Z] INFO: Invalid Login test passed
