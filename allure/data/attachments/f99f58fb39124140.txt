@@ -1,0 +1,2 @@
+[2025-05-16T09:46:02.055Z] INFO: Logging in before adding item to cart
+[2025-05-16T09:46:03.777Z] INFO: Item successfully added to cart
