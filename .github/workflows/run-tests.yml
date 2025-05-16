@@ -21,6 +21,7 @@ jobs:
         run: |
           cd NewPlaywright
           npm install
+          npm install -D allure-playwright allure-commandline
 
       - name: Install Playwright Browsers
         run: |
@@ -30,9 +31,21 @@ jobs:
       - name: Run Playwright tests
         run: |
           cd NewPlaywright
-          npx playwright test --reporter=html || true
+          npx playwright test 
 
-      - name: Deploy Playwright Report to Github Pages
+      - name: Generate Allure Report
+        run: |
+          cd NewPlaywright
+          npx allure generate ./allure-results --clean -o ./docs/allure
+
+      - name: Copy playwright Html report into docs
+        run: |
+          cd NewPlaywright
+          mkdir -p docs/playwright
+          cp -r playwright-report/* docs/playwright/
+          
+
+      - name: Deploy both Playwright Report to Github Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
