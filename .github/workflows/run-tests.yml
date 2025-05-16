@@ -17,6 +17,7 @@ jobs:
         with:
           node-version: lts/*
 
+
       - name: Install dependencies
         run: |
           cd NewPlaywright
@@ -30,19 +31,28 @@ jobs:
 
       - name: Run Playwright tests
         run: |
+          ls -lha
+          pwd
           cd NewPlaywright
           npx playwright test 
 
+
       - name: Generate Allure Report
         run: |
+          ls -lha
+          pwd
           cd NewPlaywright
           npx allure generate ./allure-results --clean -o ./docs/allure
       
+
       - name: Copy playwright Html report into docs
         run: |
+          ls -lha
+          pwd
           cd NewPlaywright
           mkdir -p docs/playwright
           cp -r playwright-report/* docs/playwright/
+
           
       - name: Deploy both  Report to Github Pages
         uses: peaceiris/actions-gh-pages@v3
