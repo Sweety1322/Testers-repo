@@ -37,10 +37,6 @@ jobs:
         run: |
           cd NewPlaywright
           npx allure generate ./allure-results --clean -o ./docs/allure
-      - name: Generate HTML Report
-        run: |
-          cd NewPlaywright
-          npx playwright show-report --output=playwright-report
       
       - name: Copy playwright Html report into docs
         run: |
@@ -48,7 +44,6 @@ jobs:
           mkdir -p docs/playwright
           cp -r playwright-report/* docs/playwright/
           
-
       - name: Deploy both  Report to Github Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
