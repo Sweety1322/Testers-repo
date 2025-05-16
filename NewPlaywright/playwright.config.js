@@ -11,9 +11,9 @@ const config = {
     timeout: 5000
   },
 
-  reporter: //[['list'],
-  'html',
-  //['allure-playwright',{outputFolder: 'allure-results'}]],
+  reporter: [['list'],
+  ['html'],
+  ['allure-playwright',{outputFolder: 'allure-results'}]],
 
   use: {
     browserName : 'chromium',
